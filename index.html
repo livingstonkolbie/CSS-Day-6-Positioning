@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Positioning</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>CSS Positioning</h1>
+    </header>
+    <main role="main">
+        <div class="boxStatic">
+            <p>
+                Static Box: This box is in normal flow. NO special positioning applied.
+            </p>
+        </div>
+        <div class="boxRelative">
+            <p>
+                Relative Box: Moved 10px down and 20px to the right from its original spot.
+            </p>
+        </div>
+        <div class="container">
+            <p>
+                Position Container: This is the container for the absolute box.
+            </p>
+            <div class="boxAbsolute">
+                <p>
+                    Absolute Box: Positioned 50px from the container's top left corner.
+                </p>
+            </div>
+        </div>
+        <div class="boxFixed">
+            <p>
+                Fixed Box: Always stays 10px from the top-right of the viewport, even when scrolling.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
